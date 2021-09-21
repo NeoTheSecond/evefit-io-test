@@ -1,0 +1,95 @@
+.workout-container {
+    border: 1px solid lightgrey;
+    padding: 5px 3px 5px 3px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.workout-name {
+    color: #5a57cb;
+    font-size: 10px;
+    margin: 0px 0px 5px 2px;
+    font-weight: bold;
+    line-height: 14px;
+    text-transform: uppercase;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.horizontal-dots {
+    cursor: pointer;
+    width: 17px;
+    height: 14px;
+    background-image: radial-gradient(circle, #c4c4c4 1px, transparent 2px);
+    background-size: 6px 16px;
+}
+
+.exercise-container {
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-bottom: 4px;
+    padding: 5px 8px 5px 8px;
+}
+
+.ex-name {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0px 0px 0px auto;
+    color: #000000;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ex-name-container {
+    text-align: right;
+}
+
+.sets-count {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 14px;
+    color: #919cad;
+}
+
+.ex-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: right;
+    color: #95a6b7;
+    width: 115px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.add-ex-btn {
+    cursor: pointer;
+    border-color: transparent;
+    background: #a0a8b1;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    padding: 0px;
+    border-radius: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
